@@ -84,7 +84,7 @@ top_combinations_SVR.to_csv(output_file_path, index=False)
 # In[6]:
 
 
-file_path = r'filename2.csv'
+file_path = r'FileS2.csv'
 data = pd.read_csv(file_path, encoding='gbk')
 data.dropna(axis=1, how='all', inplace=True)
 data.dropna(axis=0, how='any', inplace=True)
