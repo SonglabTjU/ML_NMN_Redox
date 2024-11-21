@@ -16,7 +16,7 @@ best_XGB_model = load('best_XGB_model.joblib')
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
-file_path = r'Combinatorial_space_1700.csv'
+file_path = r'Combinatorial_space.csv'
 data = pd.read_csv(file_path, encoding='gbk')
 
 data['Original_Index'] = data.index
