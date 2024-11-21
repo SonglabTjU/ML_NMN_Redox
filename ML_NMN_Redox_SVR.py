@@ -12,7 +12,7 @@ import pandas as pd
 # In[2]:
 
 
-file_path = r'filename2.csv'
+file_path = r'FileS2.csv'
 data = pd.read_csv(file_path, encoding='gbk')
 X=data.iloc[:,1:4].values
 y=data.iloc[:,-1].values
